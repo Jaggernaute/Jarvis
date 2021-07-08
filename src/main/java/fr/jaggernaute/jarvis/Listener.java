@@ -74,11 +74,12 @@ public class Listener extends ListenerAdapter
                 "The command you are trying to call is not implemented yet",
                 "For help :",
                 "``!help``",
+                false,
                 null,
                 null,
                 "Author: Jaggernaute",
                 "https://emoji.gg/assets/emoji/8649_FoxxoTail.gif",
-                "https://emoji.gg/assets/emoji/5620_FoxxoReally.png",
-                null)).queue();
+                null,
+                "https://emoji.gg/assets/emoji/5620_FoxxoReally.png")).queue();
     }
 }

@@ -19,7 +19,8 @@ class PingBuilder implements Runnable{
     public void run() {
         e.getChannel().sendMessage("Pong!")
                 .queue(response -> response.editMessageFormat(
-                        "Pong: %d ms", System.currentTimeMillis() - time).queue());
+                        "Pong: %d ms", System.currentTimeMillis() - time).queue()
+                    );
         System.out.println(author.getName() + " ping the bot (the ping is " + (System.currentTimeMillis() - time) + "ms)");
     }
 }
